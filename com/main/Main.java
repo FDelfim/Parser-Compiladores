@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        
         List<Token> tokens = new ArrayList<>();
         tokens.add(new Token(TokenType.IF, "if"));
         tokens.add(new Token(TokenType.IDENTIFIER, "Expr_1"));

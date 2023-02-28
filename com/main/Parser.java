@@ -12,9 +12,9 @@ public class Parser {
     public void parse() {
         comando();
         if (currentToken().getType() != TokenType.EOF) {
-            throw new RuntimeException("Unexpected token after end of expression");
+            System.out.println("Linguagem não reconhecida!");
         }else{
-            System.out.println("Sucesso");
+            System.out.println("Linguagem reconhecida!");
         }
     }
 
